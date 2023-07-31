@@ -1,0 +1,145 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    border: 0;
+    padding: 10;
+}
+
+body{
+   background-color: rgb(229, 151, 245);
+}
+
+#contenedor{
+    width: 80%;
+    margin: 0px auto;
+}
+
+
+header{
+    background-color: white;
+}
+
+header h1{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.logo{
+    width: 200px;
+    height:200px;
+    vertical-align: bottom;
+    box-align: center;
+}
+
+nav{
+    background-color: white;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    background-color: rgb(229, 204, 240);
+    color: black;
+    font-weight: bold;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+nav a:hover{
+    color: violet;
+}
+
+main{
+    display: flex;
+    
+}
+aside{
+    width: 20%;
+    padding: 30px;
+    background-color: rgb(251, 205, 255);
+}
+
+aside h4{
+    padding: 30px 0;
+}
+
+aside a{
+    display: block;
+    color: rgb(112, 32, 136);
+    pad: 8px 0;
+}
+
+aside audio{
+    width: 100%;
+    padding: 10px;
+}
+
+aside video{
+    width: 100%;
+}
+
+aside iframe{
+    width: 100%;
+}
+
+section{
+    width: 80%;
+    background-color: white;
+    padding: 7px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section article{
+    width: 35%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(252, 157, 255);
+}
+
+section article img{
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section article header{
+    text-align: center;
+    background-color: rgb(252, 157, 255);
+    padding: 0;
+    margin: 2px;
+    font-weight: bold;
+}
+
+footer{
+    background-color:rgb(252, 157, 255);
+    padding-bottom: 10px;
+    display: flex;
+    border: 10px solid white    ;
+}
+footer div{
+    text-align: justify;
+    width: 35%;
+}
+
+footer a{
+    color: rgb(112, 32, 136);
+}
+
+
+footer h4{ 
+    color: black;
+}
+
+footer img{
+    width: 55px;
+    height: 55px;
+}
